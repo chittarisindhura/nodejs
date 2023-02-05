@@ -4,8 +4,9 @@
   "description": "this is our backend application",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server",
-    "frontend": "npm start --prefix ../react-todo",
+    "start": "node server",
+    "server": "nodemon server",
+    "frontend": "npm start --prefix ../reactTodo",
     "dev": "concurrently \"npm run start\" \"npm run frontend\""
   },
   "author": "",
